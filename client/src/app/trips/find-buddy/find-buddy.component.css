@@ -1,0 +1,26 @@
+nav{
+    opacity: 0.95;
+    background-color: #464F41 !important;
+    border-bottom: 3px solid #5B8A72;
+}
+
+#findbuddy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #BFCBA8;
+}
+
+.btn1 {
+    background-color: #5B8A72;
+    color: white;
+}
+
+footer {
+    background-color: #464F41;
+}
+
+.unos {
+    display: block;
+}

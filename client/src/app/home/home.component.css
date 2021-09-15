@@ -1,0 +1,64 @@
+nav{
+    opacity: 0.95;
+    background-color: #464F41 !important;
+    border-bottom: 3px solid #5B8A72;
+}
+
+#login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #eceffc;
+    /*background-image: url("../img/slika_poz.jfif");*/
+}
+
+#home{
+    background-image: url("../../assets/images/home1.jfif");
+    min-height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.overlay{
+    flex: 1;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-top: 150px;
+}
+
+.linkovi {
+    color: white;
+}
+
+.linkovi :hover {
+    color: #BFCBA8
+}
+
+.naslov {
+    color: white;
+}
+
+#home .fa{
+    padding: 4px;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 22px !important;
+}
+
+
+
+#explore .fa, #share .fa{
+    padding: 4px;
+    color: white;
+    background-color: #56776C;
+    border-radius: 5px;
+    font-size: 22px !important;
+}
+
+.explore-head, .create-body{
+    background-color: #56776C;
+}
+
+footer {
+    background-color: #464F41;
+}

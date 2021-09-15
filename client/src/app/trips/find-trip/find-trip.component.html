@@ -1,0 +1,28 @@
+<body id="findtrip">
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="naslov navbar-brand" href="#">TravelBUDDY</a>
+      <div class="" id="links">
+        <ul class="ms-auto navbar-nav">
+          <li class="linkovi nav-item">
+            <a class="linkovi nav-link" routerLink="/findbuddy" href="#">Find Buddy</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+</nav>
+
+<section class="explore-head text-center text-white d-flex justify-content-center p-5 pb-3 mr-0">
+  <div class="row col-12">
+    <h4 class="mt-4">Here you can find all the active trips from our members. </h4>
+        <h4 class="mb-0">Get in touch with them and get ready for an adventure!</h4>
+  </div>
+</section>
+
+ <div class="kartice d-flex flex-wrap align-content-stretch mt-3 mb-3">
+  <ng-container *ngFor="let trip of tripsService.getAll2(); let i=index">
+      <app-trip [trip]="trip"></app-trip>
+  </ng-container>
+  </div> 
+
+</body>

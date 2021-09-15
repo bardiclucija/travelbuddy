@@ -1,0 +1,23 @@
+nav{
+    opacity: 0.95;
+    background-color: #464F41 !important;
+    border-bottom: 3px solid #5B8A72;
+}
+
+
+.kartice {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    display: inline;
+}
+
+.explore-head{
+    background-color: #56776C;
+}
+
+footer {
+    background-color: #464F41;
+}

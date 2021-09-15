@@ -1,0 +1,27 @@
+nav{
+    opacity: 0.95;
+    background-color: #464F41 !important;
+    border-bottom: 3px solid #5B8A72;
+}
+
+
+.card {
+    display: inline-block;
+    margin-right: 3rem;
+    padding-top: 2rem;
+    height: 100%;
+}
+
+.card-body{
+    padding-top: 2%;
+}
+
+#findbuddy {
+    display: inline;
+    align-items: middle;
+}
+
+
+.explore-head{
+    background-color: #56776C;
+}

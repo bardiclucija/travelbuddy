@@ -1,0 +1,120 @@
+nav{
+    opacity: 0.95;
+    background-color: #464F41 !important;
+    border-bottom: 3px solid #5B8A72;
+}
+
+#login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #eceffc;
+    background-image: url("../../assets/images/login.jfif");
+}
+
+#home{
+    background-image: url("../../assets/images/home2.jpg"); 
+    min-height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.overlay{
+    flex: 1;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-top: 150px;
+}
+
+.linkovi {
+    color: white;
+}
+
+.linkovi :hover {
+    color: #BFCBA8
+}
+/*******************************************************************/
+.btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 80%;
+    margin-left: 9.5%;
+    
+}
+  
+.form-input-material {
+    --input-default-border-color: white;
+    --input-border-bottom-color: white;
+    
+}
+  
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background: #464F41 ;
+    border-radius: 10px;
+    opacity: 0.9;
+}
+  
+.form-input-material {
+      margin: 12px 0;
+      align-items: center;
+}
+
+
+  
+  input[type=text] {
+    background-color: #f6f6f6;
+    color: #0d0d0d;
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+    margin: 5px;
+    width: 80%;
+    margin-left: 9.5%;
+    border: 2px solid #f6f6f6;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+  }
+
+
+
+  @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+  @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+  @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+  
+  .fadeIn {
+    opacity:0;
+    -webkit-animation:fadeIn ease-in 1;
+    -moz-animation:fadeIn ease-in 1;
+    animation:fadeIn ease-in 1;
+  
+    -webkit-animation-fill-mode:forwards;
+    -moz-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+  
+    -webkit-animation-duration:1s;
+    -moz-animation-duration:1s;
+    animation-duration:1s;
+  }
+  
+
+  
+  .fadeIn.third {
+    -webkit-animation-delay: 0.8s;
+    -moz-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+  }
+
+
+  
+
+  

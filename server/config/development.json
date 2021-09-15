@@ -1,0 +1,9 @@
+{
+  "database": {
+    "connectionString": "mongodb://127.0.0.1:27017",
+    "name": "trips"
+  },
+  "server": {
+    "port": 3000
+  }
+}

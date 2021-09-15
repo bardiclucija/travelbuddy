@@ -1,0 +1,44 @@
+<body id="findbuddy">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <a class="naslov navbar-brand" href="#">TravelBUDDY</a>
+        <div class="" id="links">
+          <ul class="ms-auto navbar-nav">
+            <li class="linkovi nav-item">
+              <a class="linkovi nav-link" href="/findtrip">Find Trips</a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+  </nav>
+    
+    <div class="card shadow forma p-3 col-5">
+      <h4>Where are you travelling to?</h4>
+      <form [formGroup]="newTripForm">
+        <div class="form-group">
+          <label for="message">Place</label>
+          <input type="text" id="title" class="form-control" formControlName="title">
+        </div>
+        <div class="form-group">
+            <label for="message">Desctiption</label>
+            <textarea id="message" class="form-control" formControlName="description"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="message">Dates</label>
+            <input type="text" id="dates" class="form-control" formControlName="dates">
+        </div>
+        <div class="form-group">
+            <label for="message">Contact</label>
+            <input type="text" id="contact" class="form-control" formControlName="contact">
+        </div>
+        <div class="d-flex justify-content-end">
+          <button class="btn btn-ligh" (click)="onClose()">Close</button>
+          <button class="btn btn1 mt-1" [disabled]="!newTripForm.valid" type="submit" (click)="onSubmit()">Submit</button>
+        </div>
+      </form>
+    </div>  
+    
+
+</body>
+
